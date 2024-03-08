@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai tap 1</title>
+
+    <style>
+        input {
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+
+<!--bai tap 1-->
+<table>
+    <tr>
+        <td colspan="2">Tính chu vi hình tròn<br>(bán kính hoặc đường kính)</td>
+    </tr>
+
+    <tr>
+        <td>Bán kính:</td>
+        <td><input type="number" value=0 id="radius" onchange="radius_changed()"></td>
+    </tr>
+
+    <tr>
+        <td>Đường kính:</td>
+        <td><input type="number" value=0 id="diameter" onchange="diameter_changed()"></td>
+    </tr>
+
+    <tr>
+        <td>Chu vi:</td>
+        <td><input type="number" value=0 id="perimeter" disabled></td>
+    </tr>
+</table>
+
+<script src="BaiTap4.js"></script>
+</body>
+</html>
